@@ -1,0 +1,48 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background:linear-gradient(to right,green,purple)
+}
+
+#comic-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.comic {
+  width: 200px;
+}
+.search {
+    flex-direction: column;
+    align-items: center;
+}
+#text-input{
+    width: 300px;
+    height: 2em;
+    border-radius: 10px;
+}
+h1{
+    color: aqua;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1:hover{
+    color: white;
+}
+button{
+    height: 2em;
+    width: 100px;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    font-weight: 700;
+    justify-content: space-around;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
